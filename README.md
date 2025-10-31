@@ -23,7 +23,7 @@ sudo dnf install qemu-kvm libvirt virt-install virt-viewer libvirt-devel
 Open:
 
 ```bash
-sudo nano /etc/libvirt/qemu.conf
+sudo vim /etc/libvirt/qemu.conf
 ```
 
 Comment out these lines:
